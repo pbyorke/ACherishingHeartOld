@@ -3,27 +3,68 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4C67C8EC263C6388009A83B7 /* ACherishingHeartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67C8D9263C6387009A83B7 /* ACherishingHeartApp.swift */; };
 		4C67C8ED263C6388009A83B7 /* ACherishingHeartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67C8D9263C6387009A83B7 /* ACherishingHeartApp.swift */; };
-		4C67C8EE263C6388009A83B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67C8DA263C6387009A83B7 /* ContentView.swift */; };
-		4C67C8EF263C6388009A83B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67C8DA263C6387009A83B7 /* ContentView.swift */; };
+		4C67C8EE263C6388009A83B7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67C8DA263C6387009A83B7 /* MainView.swift */; };
+		4C67C8EF263C6388009A83B7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67C8DA263C6387009A83B7 /* MainView.swift */; };
 		4C67C8F0263C6388009A83B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C67C8DB263C6388009A83B7 /* Assets.xcassets */; };
 		4C67C8F1263C6388009A83B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C67C8DB263C6388009A83B7 /* Assets.xcassets */; };
+		C16DBE5E263C806D00CA1E88 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C16DBE5D263C806D00CA1E88 /* FirebaseFirestore */; };
+		C16DBE60263C806D00CA1E88 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = C16DBE5F263C806D00CA1E88 /* FirebaseFirestoreSwift-Beta */; };
+		C16DBE62263C806D00CA1E88 /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = C16DBE61263C806D00CA1E88 /* FirebaseAnalyticsSwift-Beta */; };
+		C16DBE64263C806D00CA1E88 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = C16DBE63263C806D00CA1E88 /* FirebaseStorageSwift-Beta */; };
+		C16DBE66263C806D00CA1E88 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C16DBE65263C806D00CA1E88 /* FirebaseStorage */; };
+		C16DBE68263C806D00CA1E88 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C16DBE67263C806D00CA1E88 /* FirebaseAuth */; };
+		C16DBE6A263C806D00CA1E88 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = C16DBE69263C806D00CA1E88 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		C16DBE6C263C83E100CA1E88 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C16DBE6B263C83E100CA1E88 /* GoogleService-Info.plist */; };
+		C16DBE6D263C83E100CA1E88 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C16DBE6B263C83E100CA1E88 /* GoogleService-Info.plist */; };
+		C16DBE6F263C8C8A00CA1E88 /* MainMenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE6E263C8C8A00CA1E88 /* MainMenuBarView.swift */; };
+		C16DBE70263C8C8A00CA1E88 /* MainMenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE6E263C8C8A00CA1E88 /* MainMenuBarView.swift */; };
+		C16DBE73263C8DBA00CA1E88 /* SignInWithAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE72263C8DBA00CA1E88 /* SignInWithAppleButton.swift */; };
+		C16DBE74263C8DBA00CA1E88 /* SignInWithAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE72263C8DBA00CA1E88 /* SignInWithAppleButton.swift */; };
+		C16DBE76263C8DE100CA1E88 /* SignInWithAppleVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE75263C8DE100CA1E88 /* SignInWithAppleVIew.swift */; };
+		C16DBE77263C8DE100CA1E88 /* SignInWithAppleVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE75263C8DE100CA1E88 /* SignInWithAppleVIew.swift */; };
+		C16DBE79263C8E0F00CA1E88 /* SignInWithAppleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE78263C8E0F00CA1E88 /* SignInWithAppleCoordinator.swift */; };
+		C16DBE7A263C8E0F00CA1E88 /* SignInWithAppleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE78263C8E0F00CA1E88 /* SignInWithAppleCoordinator.swift */; };
+		C16DBE7E263C910100CA1E88 /* MainPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE7D263C910100CA1E88 /* MainPictureView.swift */; };
+		C16DBE7F263C910100CA1E88 /* MainPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE7D263C910100CA1E88 /* MainPictureView.swift */; };
+		C16DBE81263C923400CA1E88 /* MainTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE80263C923400CA1E88 /* MainTitleView.swift */; };
+		C16DBE82263C923400CA1E88 /* MainTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE80263C923400CA1E88 /* MainTitleView.swift */; };
+		C16DBE85263C928A00CA1E88 /* Color+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE84263C928A00CA1E88 /* Color+Utils.swift */; };
+		C16DBE86263C928A00CA1E88 /* Color+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE84263C928A00CA1E88 /* Color+Utils.swift */; };
+		C16DBE88263C943E00CA1E88 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE87263C943E00CA1E88 /* MainMenuView.swift */; };
+		C16DBE89263C943E00CA1E88 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE87263C943E00CA1E88 /* MainMenuView.swift */; };
+		C16DBE8B263C948C00CA1E88 /* MusicMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE8A263C948C00CA1E88 /* MusicMenuView.swift */; };
+		C16DBE8C263C948C00CA1E88 /* MusicMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE8A263C948C00CA1E88 /* MusicMenuView.swift */; };
+		C16DBE8E263C94CE00CA1E88 /* MasterMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE8D263C94CE00CA1E88 /* MasterMenuView.swift */; };
+		C16DBE8F263C94CE00CA1E88 /* MasterMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE8D263C94CE00CA1E88 /* MasterMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C67C8D9263C6387009A83B7 /* ACherishingHeartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACherishingHeartApp.swift; sourceTree = "<group>"; };
-		4C67C8DA263C6387009A83B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C67C8DA263C6387009A83B7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		4C67C8DB263C6388009A83B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C67C8E0263C6388009A83B7 /* ACherishingHeart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACherishingHeart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C67C8E3263C6388009A83B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C67C8E8263C6388009A83B7 /* ACherishingHeart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACherishingHeart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C67C8EA263C6388009A83B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C67C8EB263C6388009A83B7 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4C67C8FC263C7E89009A83B7 /* ACherishingHeart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ACherishingHeart.entitlements; sourceTree = "<group>"; };
+		C16DBE6B263C83E100CA1E88 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C16DBE6E263C8C8A00CA1E88 /* MainMenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuBarView.swift; sourceTree = "<group>"; };
+		C16DBE72263C8DBA00CA1E88 /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
+		C16DBE75263C8DE100CA1E88 /* SignInWithAppleVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleVIew.swift; sourceTree = "<group>"; };
+		C16DBE78263C8E0F00CA1E88 /* SignInWithAppleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleCoordinator.swift; sourceTree = "<group>"; };
+		C16DBE7D263C910100CA1E88 /* MainPictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPictureView.swift; sourceTree = "<group>"; };
+		C16DBE80263C923400CA1E88 /* MainTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTitleView.swift; sourceTree = "<group>"; };
+		C16DBE84263C928A00CA1E88 /* Color+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Utils.swift"; sourceTree = "<group>"; };
+		C16DBE87263C943E00CA1E88 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		C16DBE8A263C948C00CA1E88 /* MusicMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicMenuView.swift; sourceTree = "<group>"; };
+		C16DBE8D263C94CE00CA1E88 /* MasterMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +72,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16DBE62263C806D00CA1E88 /* FirebaseAnalyticsSwift-Beta in Frameworks */,
+				C16DBE68263C806D00CA1E88 /* FirebaseAuth in Frameworks */,
+				C16DBE64263C806D00CA1E88 /* FirebaseStorageSwift-Beta in Frameworks */,
+				C16DBE5E263C806D00CA1E88 /* FirebaseFirestore in Frameworks */,
+				C16DBE6A263C806D00CA1E88 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				C16DBE66263C806D00CA1E88 /* FirebaseStorage in Frameworks */,
+				C16DBE60263C806D00CA1E88 /* FirebaseFirestoreSwift-Beta in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,19 +95,22 @@
 		4C67C8D3263C6387009A83B7 = {
 			isa = PBXGroup;
 			children = (
-				4C67C8D8263C6387009A83B7 /* Shared */,
+				4C67C8FC263C7E89009A83B7 /* ACherishingHeart.entitlements */,
+				C16DBE83263C927C00CA1E88 /* Extensions */,
+				C16DBE6B263C83E100CA1E88 /* GoogleService-Info.plist */,
 				4C67C8E2263C6388009A83B7 /* iOS */,
 				4C67C8E9263C6388009A83B7 /* macOS */,
 				4C67C8E1263C6388009A83B7 /* Products */,
+				4C67C8D8263C6387009A83B7 /* Shared */,
+				C16DBE71263C8D8F00CA1E88 /* SignInWithApple */,
 			);
 			sourceTree = "<group>";
 		};
 		4C67C8D8263C6387009A83B7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				4C67C8D9263C6387009A83B7 /* ACherishingHeartApp.swift */,
-				4C67C8DA263C6387009A83B7 /* ContentView.swift */,
-				4C67C8DB263C6388009A83B7 /* Assets.xcassets */,
+				C16DBE7C263C8EAD00CA1E88 /* Infrastructure */,
+				C16DBE7B263C8E9B00CA1E88 /* Views */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -90,6 +141,47 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		C16DBE71263C8D8F00CA1E88 /* SignInWithApple */ = {
+			isa = PBXGroup;
+			children = (
+				C16DBE72263C8DBA00CA1E88 /* SignInWithAppleButton.swift */,
+				C16DBE78263C8E0F00CA1E88 /* SignInWithAppleCoordinator.swift */,
+				C16DBE75263C8DE100CA1E88 /* SignInWithAppleVIew.swift */,
+			);
+			name = SignInWithApple;
+			sourceTree = "<group>";
+		};
+		C16DBE7B263C8E9B00CA1E88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C16DBE6E263C8C8A00CA1E88 /* MainMenuBarView.swift */,
+				C16DBE87263C943E00CA1E88 /* MainMenuView.swift */,
+				C16DBE7D263C910100CA1E88 /* MainPictureView.swift */,
+				C16DBE80263C923400CA1E88 /* MainTitleView.swift */,
+				4C67C8DA263C6387009A83B7 /* MainView.swift */,
+				C16DBE8D263C94CE00CA1E88 /* MasterMenuView.swift */,
+				C16DBE8A263C948C00CA1E88 /* MusicMenuView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C16DBE7C263C8EAD00CA1E88 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				4C67C8D9263C6387009A83B7 /* ACherishingHeartApp.swift */,
+				4C67C8DB263C6388009A83B7 /* Assets.xcassets */,
+			);
+			name = Infrastructure;
+			sourceTree = "<group>";
+		};
+		C16DBE83263C927C00CA1E88 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C16DBE84263C928A00CA1E88 /* Color+Utils.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +198,15 @@
 			dependencies = (
 			);
 			name = "ACherishingHeart (iOS)";
+			packageProductDependencies = (
+				C16DBE5D263C806D00CA1E88 /* FirebaseFirestore */,
+				C16DBE5F263C806D00CA1E88 /* FirebaseFirestoreSwift-Beta */,
+				C16DBE61263C806D00CA1E88 /* FirebaseAnalyticsSwift-Beta */,
+				C16DBE63263C806D00CA1E88 /* FirebaseStorageSwift-Beta */,
+				C16DBE65263C806D00CA1E88 /* FirebaseStorage */,
+				C16DBE67263C806D00CA1E88 /* FirebaseAuth */,
+				C16DBE69263C806D00CA1E88 /* FirebaseAnalyticsWithoutAdIdSupport */,
+			);
 			productName = "ACherishingHeart (iOS)";
 			productReference = 4C67C8E0263C6388009A83B7 /* ACherishingHeart.app */;
 			productType = "com.apple.product-type.application";
@@ -134,7 +235,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					4C67C8DF263C6388009A83B7 = {
 						CreatedOnToolsVersion = 12.4;
@@ -153,6 +254,9 @@
 				Base,
 			);
 			mainGroup = 4C67C8D3263C6387009A83B7;
+			packageReferences = (
+				C16DBE5C263C806D00CA1E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 4C67C8E1263C6388009A83B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -169,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C67C8F0263C6388009A83B7 /* Assets.xcassets in Resources */,
+				C16DBE6C263C83E100CA1E88 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C67C8F1263C6388009A83B7 /* Assets.xcassets in Resources */,
+				C16DBE6D263C83E100CA1E88 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +293,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C67C8EE263C6388009A83B7 /* ContentView.swift in Sources */,
+				C16DBE88263C943E00CA1E88 /* MainMenuView.swift in Sources */,
+				C16DBE81263C923400CA1E88 /* MainTitleView.swift in Sources */,
+				C16DBE79263C8E0F00CA1E88 /* SignInWithAppleCoordinator.swift in Sources */,
+				C16DBE8E263C94CE00CA1E88 /* MasterMenuView.swift in Sources */,
+				C16DBE76263C8DE100CA1E88 /* SignInWithAppleVIew.swift in Sources */,
+				C16DBE73263C8DBA00CA1E88 /* SignInWithAppleButton.swift in Sources */,
+				C16DBE8B263C948C00CA1E88 /* MusicMenuView.swift in Sources */,
+				C16DBE7E263C910100CA1E88 /* MainPictureView.swift in Sources */,
+				C16DBE6F263C8C8A00CA1E88 /* MainMenuBarView.swift in Sources */,
+				4C67C8EE263C6388009A83B7 /* MainView.swift in Sources */,
 				4C67C8EC263C6388009A83B7 /* ACherishingHeartApp.swift in Sources */,
+				C16DBE85263C928A00CA1E88 /* Color+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +312,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C67C8EF263C6388009A83B7 /* ContentView.swift in Sources */,
+				C16DBE89263C943E00CA1E88 /* MainMenuView.swift in Sources */,
+				C16DBE82263C923400CA1E88 /* MainTitleView.swift in Sources */,
+				C16DBE7A263C8E0F00CA1E88 /* SignInWithAppleCoordinator.swift in Sources */,
+				C16DBE8F263C94CE00CA1E88 /* MasterMenuView.swift in Sources */,
+				C16DBE77263C8DE100CA1E88 /* SignInWithAppleVIew.swift in Sources */,
+				C16DBE74263C8DBA00CA1E88 /* SignInWithAppleButton.swift in Sources */,
+				C16DBE8C263C948C00CA1E88 /* MusicMenuView.swift in Sources */,
+				C16DBE7F263C910100CA1E88 /* MainPictureView.swift in Sources */,
+				C16DBE70263C8C8A00CA1E88 /* MainMenuBarView.swift in Sources */,
+				4C67C8EF263C6388009A83B7 /* MainView.swift in Sources */,
 				4C67C8ED263C6388009A83B7 /* ACherishingHeartApp.swift in Sources */,
+				C16DBE86263C928A00CA1E88 /* Color+Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +446,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ACherishingHeart.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GA4L9A4FGA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -331,6 +459,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.storkebrothers.ACherishingHeart;
 				PRODUCT_NAME = ACherishingHeart;
+				PROVISIONING_PROFILE_SPECIFIER = "A Cherishing Heart Development Profile";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -342,7 +471,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ACherishingHeart.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = GA4L9A4FGA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
@@ -353,6 +484,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.storkebrothers.ACherishingHeart;
 				PRODUCT_NAME = ACherishingHeart;
+				PROVISIONING_PROFILE_SPECIFIER = "A Cherishing Heart Development Profile";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -366,6 +498,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = GA4L9A4FGA;
@@ -390,6 +523,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = GA4L9A4FGA;
@@ -439,6 +573,55 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C16DBE5C263C806D00CA1E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C16DBE5D263C806D00CA1E88 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C16DBE5C263C806D00CA1E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C16DBE5F263C806D00CA1E88 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C16DBE5C263C806D00CA1E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
+		C16DBE61263C806D00CA1E88 /* FirebaseAnalyticsSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C16DBE5C263C806D00CA1E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAnalyticsSwift-Beta";
+		};
+		C16DBE63263C806D00CA1E88 /* FirebaseStorageSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C16DBE5C263C806D00CA1E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageSwift-Beta";
+		};
+		C16DBE65263C806D00CA1E88 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C16DBE5C263C806D00CA1E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C16DBE67263C806D00CA1E88 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C16DBE5C263C806D00CA1E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C16DBE69263C806D00CA1E88 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C16DBE5C263C806D00CA1E88 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4C67C8D4263C6387009A83B7 /* Project object */;
 }
