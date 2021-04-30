@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C67C8EC263C6388009A83B7 /* ACherishingHeartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67C8D9263C6387009A83B7 /* ACherishingHeartApp.swift */; };
+		4C67C8ED263C6388009A83B7 /* ACherishingHeartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67C8D9263C6387009A83B7 /* ACherishingHeartApp.swift */; };
+		4C67C8EE263C6388009A83B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67C8DA263C6387009A83B7 /* ContentView.swift */; };
+		4C67C8EF263C6388009A83B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67C8DA263C6387009A83B7 /* ContentView.swift */; };
+		4C67C8F0263C6388009A83B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C67C8DB263C6388009A83B7 /* Assets.xcassets */; };
+		4C67C8F1263C6388009A83B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C67C8DB263C6388009A83B7 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C67C8D9263C6387009A83B7 /* ACherishingHeartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACherishingHeartApp.swift; sourceTree = "<group>"; };
+		4C67C8DA263C6387009A83B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C67C8DB263C6388009A83B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C67C8E0263C6388009A83B7 /* ACherishingHeart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACherishingHeart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C67C8E3263C6388009A83B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C67C8E8263C6388009A83B7 /* ACherishingHeart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACherishingHeart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C67C8EA263C6388009A83B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C67C8EB263C6388009A83B7 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C67C8DD263C6388009A83B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C67C8E5263C6388009A83B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C67C8D3263C6387009A83B7 = {
+			isa = PBXGroup;
+			children = (
+				4C67C8D8263C6387009A83B7 /* Shared */,
+				4C67C8E2263C6388009A83B7 /* iOS */,
+				4C67C8E9263C6388009A83B7 /* macOS */,
+				4C67C8E1263C6388009A83B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C67C8D8263C6387009A83B7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4C67C8D9263C6387009A83B7 /* ACherishingHeartApp.swift */,
+				4C67C8DA263C6387009A83B7 /* ContentView.swift */,
+				4C67C8DB263C6388009A83B7 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4C67C8E1263C6388009A83B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C67C8E0263C6388009A83B7 /* ACherishingHeart.app */,
+				4C67C8E8263C6388009A83B7 /* ACherishingHeart.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C67C8E2263C6388009A83B7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4C67C8E3263C6388009A83B7 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		4C67C8E9263C6388009A83B7 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				4C67C8EA263C6388009A83B7 /* Info.plist */,
+				4C67C8EB263C6388009A83B7 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C67C8DF263C6388009A83B7 /* ACherishingHeart (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C67C8F4263C6388009A83B7 /* Build configuration list for PBXNativeTarget "ACherishingHeart (iOS)" */;
+			buildPhases = (
+				4C67C8DC263C6388009A83B7 /* Sources */,
+				4C67C8DD263C6388009A83B7 /* Frameworks */,
+				4C67C8DE263C6388009A83B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ACherishingHeart (iOS)";
+			productName = "ACherishingHeart (iOS)";
+			productReference = 4C67C8E0263C6388009A83B7 /* ACherishingHeart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C67C8E7263C6388009A83B7 /* ACherishingHeart (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C67C8F7263C6388009A83B7 /* Build configuration list for PBXNativeTarget "ACherishingHeart (macOS)" */;
+			buildPhases = (
+				4C67C8E4263C6388009A83B7 /* Sources */,
+				4C67C8E5263C6388009A83B7 /* Frameworks */,
+				4C67C8E6263C6388009A83B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ACherishingHeart (macOS)";
+			productName = "ACherishingHeart (macOS)";
+			productReference = 4C67C8E8263C6388009A83B7 /* ACherishingHeart.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C67C8D4263C6387009A83B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4C67C8DF263C6388009A83B7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4C67C8E7263C6388009A83B7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4C67C8D7263C6387009A83B7 /* Build configuration list for PBXProject "ACherishingHeart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C67C8D3263C6387009A83B7;
+			productRefGroup = 4C67C8E1263C6388009A83B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C67C8DF263C6388009A83B7 /* ACherishingHeart (iOS) */,
+				4C67C8E7263C6388009A83B7 /* ACherishingHeart (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C67C8DE263C6388009A83B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C67C8F0263C6388009A83B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C67C8E6263C6388009A83B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C67C8F1263C6388009A83B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C67C8DC263C6388009A83B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C67C8EE263C6388009A83B7 /* ContentView.swift in Sources */,
+				4C67C8EC263C6388009A83B7 /* ACherishingHeartApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C67C8E4263C6388009A83B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C67C8EF263C6388009A83B7 /* ContentView.swift in Sources */,
+				4C67C8ED263C6388009A83B7 /* ACherishingHeartApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C67C8F2263C6388009A83B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C67C8F3263C6388009A83B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4C67C8F5263C6388009A83B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA4L9A4FGA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.storkebrothers.ACherishingHeart;
+				PRODUCT_NAME = ACherishingHeart;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C67C8F6263C6388009A83B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GA4L9A4FGA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.storkebrothers.ACherishingHeart;
+				PRODUCT_NAME = ACherishingHeart;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C67C8F8263C6388009A83B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GA4L9A4FGA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.storkebrothers.ACherishingHeart;
+				PRODUCT_NAME = ACherishingHeart;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4C67C8F9263C6388009A83B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GA4L9A4FGA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.storkebrothers.ACherishingHeart;
+				PRODUCT_NAME = ACherishingHeart;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C67C8D7263C6387009A83B7 /* Build configuration list for PBXProject "ACherishingHeart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C67C8F2263C6388009A83B7 /* Debug */,
+				4C67C8F3263C6388009A83B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C67C8F4263C6388009A83B7 /* Build configuration list for PBXNativeTarget "ACherishingHeart (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C67C8F5263C6388009A83B7 /* Debug */,
+				4C67C8F6263C6388009A83B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C67C8F7263C6388009A83B7 /* Build configuration list for PBXNativeTarget "ACherishingHeart (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C67C8F8263C6388009A83B7 /* Debug */,
+				4C67C8F9263C6388009A83B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C67C8D4263C6387009A83B7 /* Project object */;
+}
