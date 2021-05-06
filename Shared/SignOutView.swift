@@ -23,10 +23,10 @@ struct SignOutView: View {
 //                } // onTapGesture
             Button(action: {
                 do{
-                    try Auth.auth().signOut()
+//                    try Auth.auth().signOut()
                     presentationMode.wrappedValue.dismiss()
                 }
-                catch{}
+//                catch{}
             }) {
                 HStack {
                     Text("Sign Out")

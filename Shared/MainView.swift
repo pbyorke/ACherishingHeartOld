@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MainView: View {
+    
+    @EnvironmentObject var authenticator: Authenticator
+        
     var body: some View {
         NavigationView {
             VStack {
