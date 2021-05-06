@@ -4,6 +4,8 @@
 //
 //  Created by Pete Yorke on 4/30/21.
 //
+// https://developer.apple.com/forums/thread/679182
+//
 
 import SwiftUI
 import Firebase
@@ -21,20 +23,31 @@ struct ACherishingHeartApp: App {
 
 class AppDelegate: NSObject, UIApplicationDelegate {
 
-    let ground = true
+    
+    
+    let restart = false
 
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         FirebaseApp.configure()
-        if ground { do{try Auth.auth().signOut()}catch{} }
-        var user = Auth.auth().currentUser
-        if user == nil {
-            print("* *   currentUser not found")
-            Auth.auth().signInAnonymously() { authResult, error in
-                user = Auth.auth().currentUser
-                print("* * *  anonymous currentUser created \(user?.uid ?? "")")
+        
+        if restart {
+            do {
+                try Auth.auth().signOut()
             }
+            catch{}
         } else {
-            print("* * *  currentUser found \(user?.uid ?? "")")
+            var user = Auth.auth().currentUser
+            if user == nil {
+                print("* * *  currentUser not found")
+                Auth.auth().signInAnonymously() { authResult, error in
+                    user = Auth.auth().currentUser
+                    print("* * *  anonymous currentUser created \(user?.uid ?? "")")
+                }
+            } else {
+                print("* * *  currentUser found \(user?.uid ?? "")")
+            }
         }
         return true
     }

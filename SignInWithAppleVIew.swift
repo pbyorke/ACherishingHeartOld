@@ -25,9 +25,9 @@ struct SignInWithAppleView: View {
                             presentationMode.wrappedValue.dismiss()
                         }
                     }
-                }
-        }
-    }
+                } // onTapGesture
+        } // VStack
+    } //  body
 }
 
 struct SignInView_Previews: PreviewProvider {

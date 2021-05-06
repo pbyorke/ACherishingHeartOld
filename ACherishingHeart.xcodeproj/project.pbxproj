@@ -13,6 +13,10 @@
 		4C67C8EF263C6388009A83B7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C67C8DA263C6387009A83B7 /* MainView.swift */; };
 		4C67C8F0263C6388009A83B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C67C8DB263C6388009A83B7 /* Assets.xcassets */; };
 		4C67C8F1263C6388009A83B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C67C8DB263C6388009A83B7 /* Assets.xcassets */; };
+		C11EBB53263D9CB50091ABC6 /* SignOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11EBB52263D9CB50091ABC6 /* SignOutView.swift */; };
+		C11EBB54263D9CB50091ABC6 /* SignOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11EBB52263D9CB50091ABC6 /* SignOutView.swift */; };
+		C11EBB58263D9D0F0091ABC6 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11EBB57263D9D0F0091ABC6 /* AccountView.swift */; };
+		C11EBB59263D9D0F0091ABC6 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11EBB57263D9D0F0091ABC6 /* AccountView.swift */; };
 		C16DBE5E263C806D00CA1E88 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C16DBE5D263C806D00CA1E88 /* FirebaseFirestore */; };
 		C16DBE60263C806D00CA1E88 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = C16DBE5F263C806D00CA1E88 /* FirebaseFirestoreSwift-Beta */; };
 		C16DBE62263C806D00CA1E88 /* FirebaseAnalyticsSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = C16DBE61263C806D00CA1E88 /* FirebaseAnalyticsSwift-Beta */; };
@@ -42,6 +46,10 @@
 		C16DBE8C263C948C00CA1E88 /* MusicMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE8A263C948C00CA1E88 /* MusicMenuView.swift */; };
 		C16DBE8E263C94CE00CA1E88 /* MasterMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE8D263C94CE00CA1E88 /* MasterMenuView.swift */; };
 		C16DBE8F263C94CE00CA1E88 /* MasterMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16DBE8D263C94CE00CA1E88 /* MasterMenuView.swift */; };
+		C176388C26407AB300B37F58 /* PersonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176388B26407AB300B37F58 /* PersonService.swift */; };
+		C176388D26407AB300B37F58 /* PersonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176388B26407AB300B37F58 /* PersonService.swift */; };
+		C176389026407B1500B37F58 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176388F26407B1500B37F58 /* Person.swift */; };
+		C176389126407B1500B37F58 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C176388F26407B1500B37F58 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,10 +62,12 @@
 		4C67C8EA263C6388009A83B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C67C8EB263C6388009A83B7 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		4C67C8FC263C7E89009A83B7 /* ACherishingHeart.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ACherishingHeart.entitlements; sourceTree = "<group>"; };
+		C11EBB52263D9CB50091ABC6 /* SignOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutView.swift; sourceTree = "<group>"; };
+		C11EBB57263D9D0F0091ABC6 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		C16DBE6B263C83E100CA1E88 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C16DBE6E263C8C8A00CA1E88 /* MainMenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuBarView.swift; sourceTree = "<group>"; };
-		C16DBE72263C8DBA00CA1E88 /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
-		C16DBE75263C8DE100CA1E88 /* SignInWithAppleVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleVIew.swift; sourceTree = "<group>"; };
+		C16DBE72263C8DBA00CA1E88 /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInWithAppleButton.swift; path = ../SignInWithAppleButton.swift; sourceTree = "<group>"; };
+		C16DBE75263C8DE100CA1E88 /* SignInWithAppleVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignInWithAppleVIew.swift; path = ../SignInWithAppleVIew.swift; sourceTree = "<group>"; };
 		C16DBE78263C8E0F00CA1E88 /* SignInWithAppleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleCoordinator.swift; sourceTree = "<group>"; };
 		C16DBE7D263C910100CA1E88 /* MainPictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPictureView.swift; sourceTree = "<group>"; };
 		C16DBE80263C923400CA1E88 /* MainTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTitleView.swift; sourceTree = "<group>"; };
@@ -65,6 +75,8 @@
 		C16DBE87263C943E00CA1E88 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		C16DBE8A263C948C00CA1E88 /* MusicMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicMenuView.swift; sourceTree = "<group>"; };
 		C16DBE8D263C94CE00CA1E88 /* MasterMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterMenuView.swift; sourceTree = "<group>"; };
+		C176388B26407AB300B37F58 /* PersonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonService.swift; sourceTree = "<group>"; };
+		C176388F26407B1500B37F58 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,13 +108,14 @@
 			isa = PBXGroup;
 			children = (
 				4C67C8FC263C7E89009A83B7 /* ACherishingHeart.entitlements */,
+				C176388E26407B0100B37F58 /* Entities */,
 				C16DBE83263C927C00CA1E88 /* Extensions */,
 				C16DBE6B263C83E100CA1E88 /* GoogleService-Info.plist */,
 				4C67C8E2263C6388009A83B7 /* iOS */,
 				4C67C8E9263C6388009A83B7 /* macOS */,
 				4C67C8E1263C6388009A83B7 /* Products */,
+				C16DBE71263C8D8F00CA1E88 /* Services */,
 				4C67C8D8263C6387009A83B7 /* Shared */,
-				C16DBE71263C8D8F00CA1E88 /* SignInWithApple */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,19 +154,19 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
-		C16DBE71263C8D8F00CA1E88 /* SignInWithApple */ = {
+		C16DBE71263C8D8F00CA1E88 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				C16DBE72263C8DBA00CA1E88 /* SignInWithAppleButton.swift */,
+				C176388B26407AB300B37F58 /* PersonService.swift */,
 				C16DBE78263C8E0F00CA1E88 /* SignInWithAppleCoordinator.swift */,
-				C16DBE75263C8DE100CA1E88 /* SignInWithAppleVIew.swift */,
 			);
-			name = SignInWithApple;
+			name = Services;
 			sourceTree = "<group>";
 		};
 		C16DBE7B263C8E9B00CA1E88 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C11EBB57263D9D0F0091ABC6 /* AccountView.swift */,
 				C16DBE6E263C8C8A00CA1E88 /* MainMenuBarView.swift */,
 				C16DBE87263C943E00CA1E88 /* MainMenuView.swift */,
 				C16DBE7D263C910100CA1E88 /* MainPictureView.swift */,
@@ -161,6 +174,9 @@
 				4C67C8DA263C6387009A83B7 /* MainView.swift */,
 				C16DBE8D263C94CE00CA1E88 /* MasterMenuView.swift */,
 				C16DBE8A263C948C00CA1E88 /* MusicMenuView.swift */,
+				C16DBE75263C8DE100CA1E88 /* SignInWithAppleVIew.swift */,
+				C11EBB52263D9CB50091ABC6 /* SignOutView.swift */,
+				C16DBE72263C8DBA00CA1E88 /* SignInWithAppleButton.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -180,6 +196,14 @@
 				C16DBE84263C928A00CA1E88 /* Color+Utils.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		C176388E26407B0100B37F58 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				C176388F26407B1500B37F58 /* Person.swift */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,12 +323,16 @@
 				C16DBE8E263C94CE00CA1E88 /* MasterMenuView.swift in Sources */,
 				C16DBE76263C8DE100CA1E88 /* SignInWithAppleVIew.swift in Sources */,
 				C16DBE73263C8DBA00CA1E88 /* SignInWithAppleButton.swift in Sources */,
+				C11EBB58263D9D0F0091ABC6 /* AccountView.swift in Sources */,
 				C16DBE8B263C948C00CA1E88 /* MusicMenuView.swift in Sources */,
 				C16DBE7E263C910100CA1E88 /* MainPictureView.swift in Sources */,
+				C11EBB53263D9CB50091ABC6 /* SignOutView.swift in Sources */,
 				C16DBE6F263C8C8A00CA1E88 /* MainMenuBarView.swift in Sources */,
 				4C67C8EE263C6388009A83B7 /* MainView.swift in Sources */,
 				4C67C8EC263C6388009A83B7 /* ACherishingHeartApp.swift in Sources */,
 				C16DBE85263C928A00CA1E88 /* Color+Utils.swift in Sources */,
+				C176389026407B1500B37F58 /* Person.swift in Sources */,
+				C176388C26407AB300B37F58 /* PersonService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,12 +346,16 @@
 				C16DBE8F263C94CE00CA1E88 /* MasterMenuView.swift in Sources */,
 				C16DBE77263C8DE100CA1E88 /* SignInWithAppleVIew.swift in Sources */,
 				C16DBE74263C8DBA00CA1E88 /* SignInWithAppleButton.swift in Sources */,
+				C11EBB59263D9D0F0091ABC6 /* AccountView.swift in Sources */,
 				C16DBE8C263C948C00CA1E88 /* MusicMenuView.swift in Sources */,
 				C16DBE7F263C910100CA1E88 /* MainPictureView.swift in Sources */,
+				C11EBB54263D9CB50091ABC6 /* SignOutView.swift in Sources */,
 				C16DBE70263C8C8A00CA1E88 /* MainMenuBarView.swift in Sources */,
 				4C67C8EF263C6388009A83B7 /* MainView.swift in Sources */,
 				4C67C8ED263C6388009A83B7 /* ACherishingHeartApp.swift in Sources */,
 				C16DBE86263C928A00CA1E88 /* Color+Utils.swift in Sources */,
+				C176389126407B1500B37F58 /* Person.swift in Sources */,
+				C176388D26407AB300B37F58 /* PersonService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +489,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"OTHER_LDFLAGS[arch=*]" = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.storkebrothers.ACherishingHeart;
 				PRODUCT_NAME = ACherishingHeart;
 				PROVISIONING_PROFILE_SPECIFIER = "A Cherishing Heart Development Profile";
@@ -482,6 +515,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.storkebrothers.ACherishingHeart;
 				PRODUCT_NAME = ACherishingHeart;
 				PROVISIONING_PROFILE_SPECIFIER = "A Cherishing Heart Development Profile";

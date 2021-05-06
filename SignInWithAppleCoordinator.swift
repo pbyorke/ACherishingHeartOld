@@ -59,7 +59,7 @@ extension SignInWithAppleCoordinator: ASAuthorizationControllerDelegate {
                 fatalError("Invalid state: A login callback was received, but no login request was sent.")
             }
             guard let appleIDToken = appleIDCredential.identityToken else {
-                print("* * *  Unable to fetch identity token")
+                print("* * *  Unable to fetch identity token from ASAuthorizationAppleIDCredential")
                 return
             }
             guard let idTokenString = String(data: appleIDToken, encoding: .utf8) else {
@@ -77,6 +77,7 @@ extension SignInWithAppleCoordinator: ASAuthorizationControllerDelegate {
                         print("* * *  Signining in using the updated credentials")
                         Auth.auth().signIn(with: updatedCredential) { authResult, error in
                             if let user = authResult?.user {
+                                self.dump(user)
                                 if let callback = self.onSignedIn {
                                     callback()
                                 }
@@ -84,12 +85,33 @@ extension SignInWithAppleCoordinator: ASAuthorizationControllerDelegate {
                         }
                     }
                 } else {
+                    print("* * *  Authorization using SignInWithApple was successful")
                     if let callback = self.onSignedIn {
                         callback()
                     }
                 }
             }
+        } else {
+            print("* * *  authorization is not an ASAuthorizationAppleIDCredential")
         }
+    }
+    
+    private func dump(_ user: User) {
+        print("* * *  authResult.User")
+        print("* * *    isAnonymous \(user.isAnonymous)")
+        print("* * *    isEmailVerified \(user.isEmailVerified)")
+        print("* * *    refreshToken \"\(user.refreshToken ?? "none")\"")
+        print("* * *    providerData")
+        for provider in user.providerData {
+            print("* * *      provider")
+            print("* * *        providerID \"\(provider.providerID)\"")
+            print("* * *        uid \"\(provider.uid)\"")
+            print("* * *        displayName \"\(provider.displayName ?? "none")\"")
+            print("* * *        photoURL ---")
+            print("* * *        email \"\(provider.email ?? "none")\"")
+            print("* * *        phoneNumber \"\(provider.phoneNumber ?? "none")\"")
+        }
+        print("* * *    tenantID \"\(user.tenantID ?? "none")\"")
     }
     
     func authorizationController(controller: ASAuthorizationController, didCompleteWithError error: Error) {
